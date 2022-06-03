@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
 import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
 
 function App() {
   const [page, setPage] = useState("about"); //page variable holds the word about
@@ -22,7 +23,7 @@ function App() {
     <div>
       <Navbar page = {page} setPage = {setPage} />  
         {/* naming the prop page, but passing the value inside the state called page */}
-
+      <Jumbotron />
       <PageRender />
     </div>
   );
