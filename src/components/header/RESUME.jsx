@@ -7,7 +7,7 @@ const RESUME = () => {
       <a href={AR_RESUME} download className="btn">
         Download Resume
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a href="#contact" className="btn">
         Contact me
       </a>
     </div>
