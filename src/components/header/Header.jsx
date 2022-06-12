@@ -8,9 +8,11 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h2>Hello I'm</h2>
+        <h3>Hello I'm</h3>
         <h1>Andrew Ryu</h1>
-        <h3 className="text-light">Frontend Developer</h3>
+        <h4 className="text-light">
+          Actively Looking For Frontend Developer Positions
+        </h4>
         <RESUME />
         <HeaderSocial />
 
@@ -18,9 +20,9 @@ const Header = () => {
           <img src={Pic} alt="profile pic" />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        {/* <a href="#contact" className="scroll__down">
           Scroll Down
-        </a>
+        </a> */}
       </div>
     </header>
   );
