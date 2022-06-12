@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Portfolio from "./components/portfolio/Portfolio";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
 // import Work from "./pages/Work";
@@ -19,7 +20,7 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <Contact />
       <Footer />
     </>
