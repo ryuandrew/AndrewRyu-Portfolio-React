@@ -1,7 +1,7 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
     aspect-ratio: 1/1;
     gap: 2.5rem;
 }

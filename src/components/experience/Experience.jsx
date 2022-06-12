@@ -37,6 +37,13 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__details-icon" />
               <div>
+                <h4>JQuery</h4>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCheckCircle className="experience__details-icon" />
+              <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light"></small>
               </div>

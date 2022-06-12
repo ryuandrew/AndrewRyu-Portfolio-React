@@ -30,6 +30,7 @@ const Portfolio = () => {
             <a
               href="https://fathomless-bastion-58602.herokuapp.com/"
               className="btn"
+              target="_blank"
             >
               Deployed
             </a>
@@ -58,6 +59,7 @@ const Portfolio = () => {
             <a
               href="https://ryuandrew.github.io/Project-1-Team-13/"
               className="btn"
+              target="_blank"
             >
               Deployed
             </a>
@@ -81,7 +83,11 @@ const Portfolio = () => {
             selected. The website is built using HTML, CSS, and JavaScript.
           </p>
           <div className="portfolio__item-cta">
-            <a href="https://ryuandrew.github.io/pwGenerator/" className="btn">
+            <a
+              href="https://ryuandrew.github.io/pwGenerator/"
+              className="btn"
+              target="_blank"
+            >
               Deployed
             </a>
             <a
@@ -107,6 +113,7 @@ const Portfolio = () => {
             <a
               href="https://ryuandrew.github.io/Harry-Potter-Trivia/"
               className="btn"
+              target="_blank"
             >
               Deployed
             </a>
