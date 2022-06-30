@@ -64,7 +64,7 @@ const Portfolio = () => {
               Deployed
             </a>
             <a
-              href="https://github.com/ryuandrew/Project-1-Team-13"
+              href="https://ryuandrew.github.io/MemeGenerator/"
               className="btn btn-primary"
               target="_blank"
             >
