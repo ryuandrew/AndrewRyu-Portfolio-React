@@ -2,8 +2,8 @@ import React from "react";
 import "./portfolio.css";
 import Booklastic from "../../assets/booklastic-blog.png";
 import MemeGenerator from "../../assets/Meme-Generator.png";
-import PwGenerator from "../../assets/pwGenerator.png";
-import shoppingList from "../../assets/shopping-list.png";
+import WeatherApp from "../../assets/weather-app.png";
+import ShoppingList from "../../assets/shopping-list.png";
 
 const Portfolio = () => {
     return (
@@ -33,6 +33,7 @@ const Portfolio = () => {
                             href="https://fathomless-bastion-58602.herokuapp.com/"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Deployed
                         </a>
@@ -40,6 +41,7 @@ const Portfolio = () => {
                             href="https://github.com/JTreezy/booklastic-blog-place"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
@@ -63,6 +65,7 @@ const Portfolio = () => {
                             href="https://ryuandrew.github.io/Project-1-Team-13/"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Deployed
                         </a>
@@ -70,6 +73,7 @@ const Portfolio = () => {
                             href="https://ryuandrew.github.io/MemeGenerator/"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
@@ -77,27 +81,30 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={PwGenerator} alt="pw generator" />
+                        <img src={WeatherApp} alt="weather app" />
                     </div>
-                    <h3>Random Password Generator</h3>
+                    <h3>Weather App</h3>
                     <p>
-                        Developed a random password generator website that helps
-                        the users to create a strong password based on the
-                        criteria they have selected. The website is built using
-                        HTML, CSS, and JavaScript.
+                        Developed a weather application using the OpenWeather
+                        One Call API to retrieve weather data such as current
+                        temperature, maximum temperature, and minimum
+                        temperature for cities around the world. The website is
+                        built using HTML, CSS, JavaScript, and React.js.
                     </p>
                     <div className="portfolio__item-cta">
                         <a
-                            href="https://ryuandrew.github.io/pwGenerator/"
+                            href="https://ryu-weather-app.netlify.app/"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Deployed
                         </a>
                         <a
-                            href="https://github.com/ryuandrew/pwGenerator"
+                            href="https://github.com/ryuandrew/ryu-weather-app-react"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
@@ -105,21 +112,22 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={shoppingList} alt="shopping list" />
+                        <img src={ShoppingList} alt="shopping list" />
                     </div>
                     <h3>Shopping List</h3>
                     <p>
                         Built a shopping list app to use personally with local
                         storage and React hooks such as useState() and
                         useEffect(). Users can add an item, delete an item,
-                        adjust the quantity of an item, and clear the entire
-                        list of items.
+                        adjust the quantity of an item, checkmark the purchased
+                        item, and clear the entire list of items.
                     </p>
                     <div className="portfolio__item-cta">
                         <a
                             href="https://andrew-shopping-list.netlify.app"
                             className="btn"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Deployed
                         </a>
@@ -127,6 +135,7 @@ const Portfolio = () => {
                             href="https://github.com/ryuandrew/shopping-list-netlify"
                             className="btn btn-primary"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Github
                         </a>
