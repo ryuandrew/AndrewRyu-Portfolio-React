@@ -1,6 +1,6 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 25% 50%;
     gap: 15%;
 }
 
@@ -8,7 +8,11 @@
     width: 70%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary, transparent));
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary, transparent)
+    );
     display: grid;
     place-items: center;
 }
@@ -26,8 +30,8 @@
 
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* gap: 1.5rem; */
 }
 
 .about__card {
@@ -43,7 +47,6 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
-
 }
 
 .about__icon {
@@ -81,9 +84,9 @@
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
-  }
+}
 
-  /* media queries (small) */
+/* media queries (small) */
 @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
@@ -102,4 +105,4 @@
     .about__content p {
         margin: 1.5rem 0;
     }
-  }
+}

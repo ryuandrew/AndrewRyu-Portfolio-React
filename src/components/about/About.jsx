@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Aboutme from "../../assets/about_me.jpg";
 import { FaAward } from "react-icons/fa";
-import { VscFolderOpened } from "react-icons/vsc";
+// import { VscFolderOpened } from "react-icons/vsc";
 
 const About = () => {
     return (
@@ -22,14 +22,17 @@ const About = () => {
                         <article className="about__card">
                             <FaAward className="about__icon" />
                             <h5>Experience</h5>
-                            <small>UW Coding Bootcamp</small>
+                            <small>
+                                University of Washington Full Stack Web
+                                Development Certificate
+                            </small>
                         </article>
 
-                        <article className="about__card">
+                        {/* <article className="about__card">
                             <VscFolderOpened className="about__icon" />
                             <h5>Projects</h5>
                             <small>projects</small>
-                        </article>
+                        </article> */}
                     </div>
                     <p>
                         I'm a Full-Stack Web Developer specializing in Frontend
