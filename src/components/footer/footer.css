@@ -1,5 +1,7 @@
 #footer1 {
-    padding-bottom: 3rem;
+    padding: 3rem 0;
     /* font-size: 20px; */
-    color: black;
+    /* color: black; */
+    text-align: center;
+    margin-top: 5rem;
 }

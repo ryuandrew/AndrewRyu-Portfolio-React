@@ -9,11 +9,9 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    
 }
 
 .contact__option {
-    /* background: var(--color-bg-variant); */
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -42,23 +40,41 @@ h4 {
 }
 
 /* form */
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: rgba(105, 114, 123, 0.191);
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    background: rgba(105, 114, 123, 0.191);
+    /* background: transparent; */
 }
 
 ::placeholder {
     color: var(--color-white);
-    /* opacity: 1; */
+    opacity: 0.6;
+    font-family: "Poppins", sans-serif;
+}
+
+/* media queries (med) */
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* media queries (small) */
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
 }

@@ -28,11 +28,11 @@
     transform: rotate(0);
 }
 
-.about__cards {
+/* .about__cards {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* gap: 1.5rem; */
-}
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+} */
 
 .about__card {
     background: var(--colog-bg-variant);
