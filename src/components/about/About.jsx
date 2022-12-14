@@ -5,6 +5,12 @@ import { FaAward } from "react-icons/fa";
 // import { VscFolderOpened } from "react-icons/vsc";
 
 const About = () => {
+    const aboutMe =
+        "The best part about being a Software Engineer is that it lets me use my critical thinking and problem-solving skills, and can allow me to have a positive impact on many lives. Even as an Actuarial Analyst, complex analyses and problem-solving skills were heavily used by me. These transferable skills grant me greater confidence while making this career switch. \n\n I took to software engineering instantly and was quickly inspired to pursue the subject with greater seriousness and commitment. I graduated from the University of Washington Full Stack Coding Bootcamp. Right now, I'd be happy with a role that lets me get my foot in the door and grow as a Developer. Later down the line, I'd love to find stability and recognition in the field. \n\n In previous roles, my work involved calculating renewing groups' premium increases for use in budgeting and outlook projections. I also worked with third-party companies to resolve any claim discrepancies related to Covid-19, which helped the company retrieve $2.7m. While I was good at my job, I wasn't passionate about the work, and talking about my job never excited me. \n\n My strongest technical skills include HTML, CSS, JS, NodeJS, ExpressJS, MySQL, and SQL. I'm also great at Math. I'm known to be detail-oriented, accurate, an efficient communicator and networker, disciplined, and always up for a challenge. My positive mindset, adaptability, and collaboration skills allow me to be a helpful and contributing asset to any team. Outside of work, I enjoy singing, being a DJ, and indulging in sports like boxing, HIIT workout, and skiing.";
+
+    function replaceWithBr() {
+        return aboutMe.replace(/\n/g, "<br />");
+    }
     return (
         <section id="about">
             <h5>Get To Know</h5>
@@ -34,20 +40,7 @@ const About = () => {
                             <small>projects</small>
                         </article> */}
                     </div>
-                    <p>
-                        I'm a Full-Stack Web Developer specializing in Frontend
-                        Development. Well-rounded and experienced in complex
-                        analyses and problem solving in high pressure work
-                        environments. Effective communicator with a strong
-                        background in mathematics and statistics. With the
-                        quantitative skills gained as an Actuarial Analyst, I'm
-                        excited to contribute to my growth as a Web
-                        Developer(JavaScript/React.js) and continue to learn new
-                        programming languages and apply critical thinking
-                        skills. Outside of work, I enjoy singing, dj'ing, and
-                        playing sports, such as boxing, HIIT workout, and
-                        skiing.
-                    </p>
+                    <p dangerouslySetInnerHTML={{ __html: replaceWithBr() }} />
 
                     <a href="#contact" className="btn btn-primary">
                         Let's Talk

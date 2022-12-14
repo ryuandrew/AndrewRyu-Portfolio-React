@@ -1,5 +1,5 @@
 import React from "react";
-import AR_RESUME from "../../assets/AndrewRyu-Resume-SW-Engineer.pdf";
+import AR_RESUME from "../../assets/Andrew Ryu Resume.pdf";
 
 const RESUME = () => {
     return (
