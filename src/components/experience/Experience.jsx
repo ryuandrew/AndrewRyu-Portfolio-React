@@ -11,12 +11,60 @@ const Experience = () => {
             <div className="container experience__container">
                 {/* frontend */}
                 <div className="experience__frontend">
+                    <h3>Actuarial Exams</h3>
+                    <div className="experience__content">
+                        <article className="experience__details">
+                            <AiFillCheckCircle className="experience__details-icon" />
+                            <div>
+                                <h4>P</h4>
+                                <small className="text-light"></small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <AiFillCheckCircle className="experience__details-icon" />
+                            <div>
+                                <h4>VEE Economics</h4>
+                                <small className="text-light"></small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <AiFillCheckCircle className="experience__details-icon" />
+                            <div>
+                                <h4>FM</h4>
+                                <small className="text-light"></small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <AiFillCheckCircle className="experience__details-icon" />
+                            <div>
+                                <h4>VEE Mathematical Statistics</h4>
+                                <small className="text-light"></small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <AiFillCheckCircle className="experience__details-icon" />
+                            <div>
+                                <h4>SRM</h4>
+                                <small className="text-light"></small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <AiFillCheckCircle className="experience__details-icon" />
+                            <div>
+                                <h4>VEE Accounting and Finance</h4>
+                                <small className="text-light"></small>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                {/* frontend */}
+                <div className="experience__frontend">
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
                             <AiFillCheckCircle className="experience__details-icon" />
                             <div>
-                                <h4>React.js</h4>
+                                <h4>React JS</h4>
                                 <small className="text-light"></small>
                             </div>
                         </article>
